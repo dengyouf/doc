@@ -1,3 +1,4 @@
+```
 version: '2'
 services:
     gitlab:
@@ -19,3 +20,4 @@ services:
         - /data/application/gitlab/config:/etc/gitlab
         - /data/application/logs:/var/log/gitlab
         - /data/application/gitlab/data:/var/opt/gitlab
+```
