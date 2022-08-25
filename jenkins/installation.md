@@ -1,3 +1,4 @@
+```
 version: '2'
 services:
   jenkins:
@@ -11,3 +12,4 @@ services:
     volumes:
       - /data/application/jenkins:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
+```
